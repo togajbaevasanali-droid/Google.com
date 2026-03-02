@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); /*свой шрифт */
+
+* {
+  user-select: none; /*Запрешает выделять текст*/
+}
+
+body {
+    background-color: rgb(60, 60, 60); /* цвет страницы*/
+    font-family: "Poppins", sans-serif; /* свой шрифт*/
+}
+#Google {
+    color: #ffffff; /* цвет текста*/
+    position: fixed; /* позиция текста*/
+    top: 150px; /* отступ сверху */
+    left: 50%; /* отступ слева*/
+    transform: translate(-50%, -50%); /*центрировать текст */
+    font-size: 70px /* размер текста */
+}
+#search-input {
+position: absolute; /* позиция поисковой строки*/
+top: 230px; /* отступ сверху*/
+left: 50%; /* отступ слева */
+transform: translateX(-50%); /* центрировать текст */
+width: 500px; /* ширина поисковой строки*/
+height: 35px; /* высота поисковой строки*/
+border-radius: 30px; /* скругление углов*/
+outline: none; /* Убирает контур фокуса*/
+border: none; /* Убирает рамку*/
+padding: 1px 30px; /* отступы внутри поисковой строки*/
+
+  z-index: 1;
+}
+#Imd {
+ position: absolute;
+    top: 235px;
+    left: 493px;
+  width: 25px;
+  z-index: 2;
+ user-select: none;          /* нельзя выделить */
+  pointer-events: none;       /* нельзя кликать */
+  -webkit-user-drag: none;     /* нельзя тащить */
+}
+#Gmail {
+    text-decoration: none;
+    position: fixed; /* позиция текста*/
+    top: 17px; /* отступ сверху */
+    left: 1350px; /* отступ слева*/
+    color: aliceblue;
+    font-size: 11px
+
+}
+
+#Gmail:hover {
+    text-decoration: underline;
+    position: fixed; /* позиция текста*/
+    top: 17px; /* отступ сверху */
+    left: 1350px; /* отступ слева*/
+    color: aliceblue;
+    font-size: 11px
+
+}
+
+
+
+#Kartinka {
+     text-decoration: none;
+    position: fixed; /* позиция текста*/
+    top: 17px; /* отступ сверху */
+    left: 1390px; /* отступ слева*/
+    color: aliceblue;
+    font-size: 11px
+}
+
+#Kartinka:hover {
+     text-decoration: underline;
+    position: fixed; /* позиция текста*/
+    top: 17px; /* отступ сверху */
+    left: 1390px; /* отступ слева*/
+    color: aliceblue;
+    font-size: 11px
+}
+
+#TRY {
+     position: absolute;
+    top: 14px;
+    left: 1455px;
+  width: 20px;
+ user-select: none;          /* нельзя выделить */
+  pointer-events: none;       /* нельзя кликать */
+  -webkit-user-drag: none;     /* нельзя тащить */
+}
+#mell {
+    position: absolute;
+    top: 9px;
+    left: 1490px;
+  width: 29px;
+ user-select: none;          /* нельзя выделить */
+  pointer-events: none;       /* нельзя кликать */
+  -webkit-user-drag: none;     /* нельзя тащить */
+}
+
+#Has {
+     position: absolute;
+    top: 675px;
+    left: 1380px;
+  width: 145px;
+ user-select: none;          /* нельзя выделить */
+  pointer-events: none;       /* нельзя кликать */
+  -webkit-user-drag: none;     /* нельзя тащить */
+}
